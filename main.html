@@ -1,16 +1,67 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Pinterest Hero Section</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
 
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('https://images.unsplash.com/photo-1585124600331-0174b77d7479?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero-content {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .hero a {
+      text-decoration: none;
+      padding: 12px 24px;
+      background-color: #e60023;
+      color: white;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #c4001f;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Discover Ideas</h1>
+      <p>Find inspiration for your next DIY, recipe, or design.</p>
+      <a href="#">Explore Now</a>
+    </div>
+  </div>
 
 </body>
-
 </html>
